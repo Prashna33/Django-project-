@@ -1,0 +1,21 @@
+{% extends 'master/base.html'%}
+{% block title %}Home{% endblock %}
+{% block content %}
+<h2>Our Products</h2>
+
+{% for product in products %}
+<div class="product">
+    <h3>Laptop</h3>
+    <p>Price: Rs. 1500</p>
+</div>
+
+<div class="product">
+    <h3>Book</h3>
+    <p>Price: Rs. 300</p>
+</div>
+
+<div class="product">
+    <h3>Camera</h3>
+    <p>Price Rs. 2500</p>
+</div>
+{% endblock %}
